@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple TODO App</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1> To-Do list Management System</h1>
+  <h2>🗓️ Current Date: <span id="currentDate"></span></h2>
+
+  <form id="todoForm">
+    <input type="text" id="description" placeholder="Enter task" required />
+    <input type="datetime-local" id="targetDate" required />
+    <select id="status">
+      <option value="Pending" selected>Pending</option>
+      <option value="In Progress">In Progress</option>
+      <option value="Completed">Completed</option>
+    </select>
+    <button type="submit">Add Task</button>
+  </form>
+
+  <table id="todoTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Description</th>
+        <th>Target Date</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

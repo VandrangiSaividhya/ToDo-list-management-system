@@ -1,0 +1,35 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  color: rgb(247, 213, 213);
+}
+form input, form select, form button {
+  margin: 5px;
+  padding: 8px;
+}
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+  color: rgb(247, 213, 213);
+}
+h1 {
+  color: rgb(247, 213, 213);
+
+}
+body {
+  height: 100vh; /* Full viewport height */
+  margin: 0;     /* Remove default spacing */
+  padding: 0;
+  background-image: url('photo-1686593686409-43456910d65c.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
